@@ -92,8 +92,10 @@
   <section id="kontak" class="py-20 bg-gray-100 px-6">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
-      <p class="text-lg mb-2">Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-600 underline">lbhuit501@gmail.com</a></p>
-      <p class="text-lg">WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-600 underline">0852-9938-3003</a></p>
+      <p class="text-lg mb-2">Email: <a href="mailto:gintamaleo12@gmail.com" class="text-blue-600 underline">gintamaleo12@gmail.com</a></p>
+      <p class="text-lg mb-2">WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-600 underline">0852-9938-3003</a></p>
+      <p class="text-lg mb-2">Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-600 underline">Lembaga Bantuan Hukum Uit</a></p>
+      <p class="text-lg">Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-600 underline">@lembaga_bantuan_hukum_uit</a></p>
     </div>
   </section>
 
