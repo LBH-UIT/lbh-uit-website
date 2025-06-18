@@ -81,7 +81,7 @@
   <section id="kontak" class="py-20 bg-gray-100 px-6">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-bold text-red-800 mb-6">Kontak Kami</h2>
-      <p class="text-lg mb-2">Email: <a href="mailto:gintamaleo12@gmail.com" class="text-blue-600 underline">gintamaleo12@gmail.com</a></p>
+      <p class="text-lg mb-2">Email: <a href="mailto:lbhuit2@gmail.com" class="text-blue-600 underline">lbhuit@gmail.com</a></p>
       <p class="text-lg">WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-600 underline">0852-9938-3003</a></p>
     </div>
   </section>
