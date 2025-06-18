@@ -13,7 +13,10 @@
     .glass {
       background: rgba(255, 255, 255, 0.2);
       backdrop-filter: blur(10px);
-      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #7a1c1c 0%, #000000 100%);
     }
   </style>
 </head>
@@ -37,9 +40,9 @@
   </header>
 
   <!-- Hero -->
-  <section id="beranda" class="bg-cover bg-center text-white py-32 px-6" style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1600&q=80');">
+  <section id="beranda" class="hero-gradient text-white py-32 px-6">
     <div class="glass p-10 rounded-xl max-w-3xl mx-auto text-center">
-      <h2 class="text-4xl font-bold mb-4 leading-snug">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
+      <h2 class="text-5xl font-bold mb-4 leading-snug">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
       <p class="text-lg">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </div>
   </section>
