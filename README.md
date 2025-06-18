@@ -10,11 +10,16 @@
     .primary-color { background-color: #7a1c1c; }
     .accent-color { color: #144d36; }
     .text-highlight { color: #7a1c1c; }
+    .glass {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    }
   </style>
 </head>
 <body class="bg-white text-gray-800">
   <!-- Header -->
-  <header class="primary-color text-white py-6 shadow-md sticky top-0 z-50">
+  <header class="primary-color text-white py-6 shadow-lg sticky top-0 z-50">
     <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
       <div class="flex items-center space-x-4">
         <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="h-14 w-14 object-contain rounded-full shadow-md">
@@ -22,18 +27,18 @@
           <h1 class="text-2xl sm:text-3xl font-bold leading-tight tracking-wide">Lembaga Bantuan Hukum<br><span class="text-sm sm:text-base font-medium">Universitas Indonesia Timur (LBH-UIT)</span></h1>
         </div>
       </div>
-      <div class="hidden sm:flex space-x-6">
-        <a href="#beranda" class="hover:underline font-medium">Beranda</a>
-        <a href="#tentang" class="hover:underline font-medium">Tentang Kami</a>
-        <a href="#layanan" class="hover:underline font-medium">Layanan</a>
-        <a href="#kontak" class="hover:underline font-medium">Kontak</a>
-      </div>
+      <nav class="hidden sm:flex space-x-6 text-lg font-medium">
+        <a href="#beranda" class="hover:underline">Beranda</a>
+        <a href="#tentang" class="hover:underline">Tentang Kami</a>
+        <a href="#layanan" class="hover:underline">Layanan</a>
+        <a href="#kontak" class="hover:underline">Kontak</a>
+      </nav>
     </div>
   </header>
 
   <!-- Hero -->
   <section id="beranda" class="bg-cover bg-center text-white py-32 px-6" style="background-image: url('https://images.unsplash.com/photo-1573164713988-8665fc963095?auto=format&fit=crop&w=1600&q=80');">
-    <div class="bg-black bg-opacity-50 p-10 rounded-xl max-w-3xl mx-auto text-center">
+    <div class="glass p-10 rounded-xl max-w-3xl mx-auto text-center">
       <h2 class="text-4xl font-bold mb-4 leading-snug">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
       <p class="text-lg">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </div>
@@ -41,9 +46,9 @@
 
   <!-- Tentang Kami -->
   <section id="tentang" class="py-20 bg-gray-100 px-6">
-    <div class="max-w-4xl mx-auto text-center">
+    <div class="max-w-5xl mx-auto text-center">
       <h2 class="text-3xl font-bold text-highlight mb-8">Visi</h2>
-      <p class="mb-12 text-lg">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
+      <p class="mb-12 text-lg leading-relaxed">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
 
       <h2 class="text-3xl font-bold text-highlight mb-6">Misi</h2>
       <ol class="list-decimal text-left ml-6 space-y-4 text-lg">
@@ -57,22 +62,22 @@
 
   <!-- Layanan -->
   <section id="layanan" class="py-20 bg-white px-6">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-highlight mb-8">Pelayanan LBH-UIT</h2>
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-10">Pelayanan LBH-UIT</h2>
       <div class="grid sm:grid-cols-2 gap-8 text-left">
-        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
           <h3 class="text-xl font-semibold mb-2">Bantuan Hukum</h3>
           <p>Membantu masyarakat yang memerlukan bantuan hukum secara gratis.</p>
         </div>
-        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
           <h3 class="text-xl font-semibold mb-2">Pendidikan Paralegal</h3>
           <p>Menyediakan pendidikan dan pelatihan paralegal kepada masyarakat.</p>
         </div>
-        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
           <h3 class="text-xl font-semibold mb-2">Pemantauan & Advokasi</h3>
           <p>Melaporkan pelanggaran hukum oleh penegak hukum atau pemerintah.</p>
         </div>
-        <div class="bg-gray-50 p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
           <h3 class="text-xl font-semibold mb-2">Tempat Magang</h3>
           <p>Menyediakan tempat magang untuk mahasiswa dan profesi hukum.</p>
         </div>
