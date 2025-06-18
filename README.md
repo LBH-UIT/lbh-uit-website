@@ -62,20 +62,17 @@
       </ol>
 
       <!-- Dokumen Legalitas -->
-      <div class="mt-16">
-        <h3 class="text-2xl font-semibold text-highlight mb-6">Dokumen Legalitas</h3>
-        <div class="grid sm:grid-cols-2 gap-6">
-          <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
-            <img src="d969d9cf-c304-4c41-b101-0f5cb823b444.png" alt="SK Kemenkumham" class="w-full h-64 object-cover rounded-md mb-4">
-            <h4 class="text-lg font-bold">SK Kemenkumham</h4>
-          </div>
-          <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
-            <img src="d969d9cf-c304-4c41-b101-0f5cb823b444.png" alt="Akta Pendirian" class="w-full h-64 object-cover rounded-md mb-4">
-            <h4 class="text-lg font-bold">Akta Pendirian</h4>
-          </div>
-        </div>
-      </div>
-    </div>
+     <div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+  <img src="Akta Pendirian.jpg" alt="Akta Pendirian" class="w-full h-64 object-cover rounded-md mb-4">
+  <h4 class="text-lg font-bold">SK Kemenkumham</h4>
+</div>
+<div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+  <img src="SK Kemenkumham.jpg" alt="SK Kemenkumham" class="w-full h-64 object-cover rounded-md mb-4">
+  <h4 class="text-lg font-bold">Akta Pendirian</h4>
+</div>
+<div class="bg-white p-4 rounded-xl shadow hover:shadow-md transition">
+  <img src="Struktur Kelembagaan.jpg" alt="Struktur Kelembagaan" class="w-full h-64 object-cover rounded-md mb-4">
+  <h4 class="text-lg font-bold">Akta Pendirian</h4>
   </section>
 
   <!-- Layanan -->
