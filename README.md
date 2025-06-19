@@ -119,11 +119,11 @@
         <p>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
         <p>
           <i class="fab fa-facebook text-blue-500 mr-2"></i>
-          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Lembaga Bantuan Hukum Uit</a>
+          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Facebook : Lembaga Bantuan Hukum Uit</a>
         </p>
         <p>
           <i class="fab fa-instagram text-pink-500 mr-2"></i>
-          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">@lembaga_bantuan_hukum_uit</a>
+          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">instagram : @lembaga_bantuan_hukum_uit</a>
         </p>
       </div>
     </div>
