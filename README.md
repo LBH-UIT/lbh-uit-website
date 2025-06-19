@@ -66,7 +66,7 @@
       <div class="flex justify-between items-center gap-4 mt-4">
         <nav class="flex flex-wrap justify-center gap-6 text-lg font-semibold">
           <a href="#" onclick="showSection('beranda')" class="hover:text-orange-300 transition">Beranda</a>
-          <a href="#" onclick="showSection('tentang kami')" class="hover:text-orange-300 transition">Tentang</a>
+          <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang Kami</a>
           <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
           <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
           <a href="#" onclick="showSection('pengaduan')" class="hover:text-orange-300 transition">Pengaduan</a>
