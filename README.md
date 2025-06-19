@@ -5,7 +5,7 @@
   <title>LBH-UIT Makassar</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script> <!-- Ganti dengan kit FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-RRyjghIO6mSMRzR8ZtZ8vjykEtdTVEPZAv/IYJkoX+7F/d6eVtT0jMiUWUctiY6RuMIyoA+V/4Y7svF1Obl2Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -59,10 +59,10 @@
     </div>
   </header>
 
-  <!-- Beranda / Hero -->
+  <!-- Beranda -->
   <section id="beranda" class="hero-gradient text-white py-36 px-6">
     <div class="glass p-10 rounded-xl max-w-3xl mx-auto text-center">
-      <h2 class="text-5xl font-bold mb-4">Mewujudkan Keadilan Mengabdi untuk Masyarakat</h2>
+      <h2 class="text-5xl font-bold mb-4">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
       <p class="text-lg text-gray-300">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </div>
   </section>
@@ -114,11 +114,17 @@
   <section id="kontak" class="py-20 px-6">
     <div class="max-w-4xl mx-auto text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
-      <div class="space-y-3 text-lg text-gray-300">
+      <div class="space-y-4 text-lg text-gray-300">
         <p>Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
-        <p><i class="fab fa-facebook text-blue-500 mr-2"></i><a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline">Lembaga Bantuan Hukum Uit</a></p>
-        <p><i class="fab fa-instagram text-pink-500 mr-2"></i><a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline">@lembaga_bantuan_hukum_uit</a></p>
+        <p>
+          <i class="fab fa-facebook text-blue-500 mr-2"></i>
+          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Lembaga Bantuan Hukum Uit</a>
+        </p>
+        <p>
+          <i class="fab fa-instagram text-pink-500 mr-2"></i>
+          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">@lembaga_bantuan_hukum_uit</a>
+        </p>
       </div>
     </div>
   </section>
