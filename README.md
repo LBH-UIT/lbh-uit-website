@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -37,7 +36,21 @@
       0% { opacity: 0; transform: translateY(20px); }
       100% { opacity: 1; transform: translateY(0); }
     }
+    .modal {
+      display: none;
+    }
+    .modal.active {
+      display: flex;
+    }
   </style>
+  <script>
+    function openTentangKami() {
+      document.getElementById('modalTentangKami').classList.add('active');
+    }
+    function closeTentangKami() {
+      document.getElementById('modalTentangKami').classList.remove('active');
+    }
+  </script>
 </head>
 <body class="bg-white text-gray-800">
 
@@ -54,7 +67,7 @@
       </div>
       <nav class="hidden sm:flex space-x-6 text-lg font-medium">
         <a href="#beranda" class="nav-link">Beranda</a>
-        <a href="#tentang" class="nav-link">Tentang Kami</a>
+        <a href="javascript:void(0)" onclick="openTentangKami()" class="nav-link">Tentang Kami</a>
         <a href="#layanan" class="nav-link">Layanan</a>
         <a href="#kontak" class="nav-link">Kontak</a>
       </nav>
@@ -64,26 +77,24 @@
   <!-- Hero -->
   <section id="beranda" class="hero-gradient text-white py-32 px-6">
     <div class="glass p-10 rounded-xl max-w-3xl mx-auto text-center fade-in">
-      <h2 class="text-5xl font-bold mb-4 leading-snug">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
+      <h2 class="text-5xl font-bold mb-4 leading-snug">Mewujudkan Keadilan Mengabdi untuk Masyarakat</h2>
       <p class="text-lg">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </div>
   </section>
 
-  <!-- Tentang Kami -->
-  <section id="tentang" class="py-20 bg-gray-100 px-6">
-    <div class="max-w-5xl mx-auto text-center fade-in">
-      <h2 class="text-3xl font-bold text-highlight mb-10">Tentang Kami</h2>
-      <div class="text-left space-y-8">
-        <!-- Visi -->
+  <!-- Modal Tentang Kami -->
+  <div id="modalTentangKami" class="modal fixed inset-0 bg-black bg-opacity-60 justify-center items-center z-50">
+    <div class="bg-white rounded-xl max-w-3xl w-full p-8 relative fade-in">
+      <button class="absolute top-4 right-4 text-red-600 text-xl font-bold" onclick="closeTentangKami()">&times;</button>
+      <h2 class="text-3xl font-bold text-highlight mb-6 text-center">Tentang Kami</h2>
+      <div class="text-left space-y-6">
         <div>
           <h3 class="text-2xl font-semibold text-highlight mb-2">🎯 Visi</h3>
           <p class="text-lg leading-relaxed">Memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
         </div>
-
-        <!-- Misi -->
         <div>
           <h3 class="text-2xl font-semibold text-highlight mb-2">📌 Misi</h3>
-          <ol class="list-decimal ml-6 space-y-3 text-lg">
+          <ol class="list-decimal ml-6 space-y-2 text-lg">
             <li>Memberikan layanan bantuan hukum yang profesional dan berpihak</li>
             <li>Mendorong reformasi hukum yang adil dan inklusif</li>
             <li>Membangun sinergi nasional dan internasional</li>
@@ -92,7 +103,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Layanan -->
   <section id="layanan" class="py-20 bg-white px-6">
@@ -130,7 +141,7 @@
         <p><i class="fab fa-whatsapp text-green-600 mr-2"></i>WhatsApp: 
           <a href="https://wa.me/6285299383003" class="text-green-600 underline">0852-9938-3003</a>
         </p>
-        <p><i class="fab fa-facebook-square text-blue-700 mr-2"></i>Facebook: 
+        <p><i class="fab fa-facebook text-blue-700 mr-2"></i>Facebook: 
           <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-600 underline">Lembaga Bantuan Hukum Uit</a>
         </p>
         <p><i class="fab fa-instagram text-pink-500 mr-2"></i>Instagram: 
