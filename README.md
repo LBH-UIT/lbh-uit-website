@@ -37,25 +37,26 @@
     }
     .section {
       display: none;
+      opacity: 0;
+      transform: scale(0.97);
+      transition: all 0.4s ease-in-out;
     }
     .section.active {
       display: block;
+      opacity: 1;
+      transform: scale(1);
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <header class="primary-color text-white py-5 sticky top-0 z-50 shadow-md">
-    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
-      <div class="flex items-center space-x-4">
-        <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="h-14 w-14 object-contain rounded-full border-2 border-white shadow-md">
-        <div>
-          <h1 class="text-2xl sm:text-3xl font-bold">LBH-UIT</h1>
-          <p class="text-sm">Lembaga Bantuan Hukum<br>Universitas Indonesia Timur</p>
-        </div>
-      </div>
-      <nav class="hidden sm:flex space-x-6 text-lg font-medium">
+  <!-- Header Centered -->
+  <header class="primary-color text-white py-8 shadow-md text-center">
+    <div class="flex flex-col items-center space-y-4">
+      <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="h-28 w-28 object-contain rounded-full border-4 border-white shadow-lg">
+      <h1 class="text-4xl sm:text-5xl font-bold">LBH-UIT</h1>
+      <p class="text-lg sm:text-xl">Lembaga Bantuan Hukum<br>Universitas Indonesia Timur</p>
+      <nav class="flex flex-wrap justify-center gap-6 text-lg font-semibold mt-4">
         <a href="#" onclick="showSection('beranda')" class="hover:text-orange-300 transition">Beranda</a>
         <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang</a>
         <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
@@ -114,22 +115,10 @@
     <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
       <div class="text-lg text-gray-300 space-y-4">
-        <p>
-          <i class="fas fa-envelope text-red-300 mr-2"></i>
-          Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a>
-        </p>
-        <p>
-          <i class="fab fa-whatsapp text-green-400 mr-2"></i>
-          WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a>
-        </p>
-        <p>
-          <i class="fab fa-facebook text-blue-500 mr-2"></i>
-          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a>
-        </p>
-        <p>
-          <i class="fab fa-instagram text-pink-500 mr-2"></i>
-          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a>
-        </p>
+        <p><i class="fas fa-envelope text-red-300 mr-2"></i>Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
+        <p><i class="fab fa-facebook text-blue-500 mr-2"></i>Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a></p>
+        <p><i class="fab fa-instagram text-pink-500 mr-2"></i>Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a></p>
       </div>
     </section>
   </main>
@@ -139,12 +128,18 @@
     <p class="text-sm">&copy; 2025 LBH-UIT. Semua Hak Dilindungi.</p>
   </footer>
 
-  <!-- Script -->
+  <!-- Transisi Script -->
   <script>
     function showSection(id) {
       const sections = document.querySelectorAll('.section');
-      sections.forEach(section => section.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
+      sections.forEach(section => {
+        section.classList.remove('active');
+        section.style.opacity = 0;
+        setTimeout(() => section.style.display = 'none', 300);
+      });
+      const target = document.getElementById(id);
+      target.style.display = 'block';
+      setTimeout(() => target.classList.add('active'), 10);
     }
   </script>
 
