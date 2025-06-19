@@ -33,6 +33,18 @@
       <nav class="hidden sm:flex space-x-6 text-lg font-medium">
         <a href="#beranda" class="hover:underline">Beranda</a>
         <a href="#tentang" class="hover:underline">Tentang Kami</a>
+          <!-- VISI-MISI -->
+            <section id="visi-misi" class="py-12 bg-gray-50 px-6">
+            <h2 class="text-2xl font-bold text-red-800 mb-4">Visi</h2>
+            <p class="mb-6">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
+                <h2 class="text-2xl font-bold text-red-800 mb-4">Misi</h2>
+                  <ol class="list-decimal ml-6 text-gray-800 space-y-2">
+                    <li>Menyediakan layanan bantuan hukum yang profesional dan berpihak pada masyarakat miskin, marjinal, dan kelompok rentan.</li>
+                    <li>Mendorong reformasi hukum melalui advokasi dan pendidikan hukum.</li>
+                    <li>Membangun sinergi dengan lembaga nasional dan internasional dalam memperkuat sistem hukum yang demokratis dan akuntabel.</li>
+                    <li>Menjunjung tinggi prinsip keadilan restoratif sebagai sarana pemulihan dan pemberdayaan masyarakat.</li>
+    </ol>
+  </section>
         <a href="#layanan" class="hover:underline">Layanan</a>
         <a href="#kontak" class="hover:underline">Kontak</a>
       </nav>
