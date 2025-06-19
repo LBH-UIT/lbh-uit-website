@@ -123,8 +123,8 @@
     <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
       <div class="text-lg text-gray-300 space-y-4">
+        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>      
         <p><i class="fas fa-envelope text-red-300 mr-2"></i> <a href="mailto:lembagabantuanhukumuit@gmail.com" class="text-blue-400 underline">lembagabantuanhukumuit@gmail.com</a></p>
-        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
         <p><i class="fab fa-facebook text-blue-500 mr-2"></i> <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a></p>
         <p><i class="fab fa-instagram text-pink-500 mr-2"></i> <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a></p>
       </div>
