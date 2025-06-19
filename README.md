@@ -1,6 +1,6 @@
 <!-- ==========================
-   Website LBH-UIT - Versi Profil Lengkap
-   Menggunakan: Tailwind CSS, Glassmorphism, Navigasi Dinamis
+   Website LBH-UIT - Versi Profil Lengkap + Tema Keren
+   Menggunakan: Tailwind CSS, Glassmorphism, Navigasi Dinamis, Background Tematik
    ========================== -->
 
 <html lang="id">
@@ -14,24 +14,24 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #144d36, #7a1c1c);
-      background-attachment: fixed;
+      background: url('d523cd88-7c1b-4a30-bc9f-dd0166c9f696.png') no-repeat center center fixed;
+      background-size: cover;
       color: white;
     }
     h1, h2, h3 {
       font-family: 'Orbitron', sans-serif;
     }
     .primary-color {
-      background: linear-gradient(to right, #7a1c1c, #144d36);
+      background: rgba(20, 77, 54, 0.9);
     }
     .text-highlight {
       color: #ffab91;
     }
     .glass {
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(0, 0, 0, 0.4);
       border: 1px solid rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(16px);
-      box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
     }
     .section {
       display: none;
@@ -68,7 +68,6 @@
   </header>
 
   <main class="px-6 py-12">
-
     <!-- Profil -->
     <section id="profil" class="section active max-w-4xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Profil LBH-UIT</h2>
@@ -123,13 +122,12 @@
     <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
       <div class="text-lg text-gray-300 space-y-4">
-        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>      
-        <p><i class="fas fa-envelope text-red-300 mr-2"></i> <a href="mailto:lembagabantuanhukumuit@gmail.com" class="text-blue-400 underline">lembagabantuanhukumuit@gmail.com</a></p>
+        <p><i class="fas fa-envelope text-red-300 mr-2"></i> <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
         <p><i class="fab fa-facebook text-blue-500 mr-2"></i> <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a></p>
         <p><i class="fab fa-instagram text-pink-500 mr-2"></i> <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a></p>
       </div>
     </section>
-
   </main>
 
   <footer class="primary-color text-white text-center py-6">
