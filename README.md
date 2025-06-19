@@ -56,49 +56,6 @@
 </head>
 <body class="bg-white text-gray-800">
 
-  <!-- Navbar -->
-  <nav class="bg-red-800 px-6 py-4 text-white">
-    <ul class="flex space-x-6">
-      <li class="relative group">
-        <a href="#" class="hover:text-yellow-300">Tentang Kami</a>
-        <ul class="absolute hidden group-hover:block bg-white text-black shadow-md mt-2 rounded-lg py-2 w-52 z-50">
-          <li><a href="#visi-misi" class="block px-4 py-2 hover:bg-gray-100">Visi-Misi</a></li>
-            <!-- VISI-MISI -->
-  <section id="visi-misi" class="py-12 bg-gray-50 px-6">
-    <h2 class="text-2xl font-bold text-red-800 mb-4">Visi</h2>
-    <p class="mb-6">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
-
-    <h2 class="text-2xl font-bold text-red-800 mb-4">Misi</h2>
-    <ol class="list-decimal ml-6 text-gray-800 space-y-2">
-      <li>Menyediakan layanan bantuan hukum yang profesional dan berpihak pada masyarakat miskin, marjinal, dan kelompok rentan.</li>
-      <li>Mendorong reformasi hukum melalui advokasi dan pendidikan hukum.</li>
-      <li>Membangun sinergi dengan lembaga nasional dan internasional dalam memperkuat sistem hukum yang demokratis dan akuntabel.</li>
-      <li>Menjunjung tinggi prinsip keadilan restoratif sebagai sarana pemulihan dan pemberdayaan masyarakat.</li>
-    </ol>
-  </section>
-          <li><a href="#akta-pendirian" class="block px-4 py-2 hover:bg-gray-100">Akta Pendirian</a></li>
-           <!-- AKTA PENDIRIAN -->
-  <section id="akta-pendirian" class="py-12 bg-white px-6">
-    <h2 class="text-2xl font-bold text-red-800 mb-4">Akta Pendirian</h2>
-    <img src="assets/img/akta-pendirian.jpg" alt="Akta Pendirian" class="w-full rounded shadow">
-  </section>
-          <li><a href="#sk-kemenkumham" class="block px-4 py-2 hover:bg-gray-100">SK Kemenkumham</a></li>
-           <!-- SK KEMENKUMHAM -->
-  <section id="sk-kemenkumham" class="py-12 bg-gray-50 px-6">
-    <h2 class="text-2xl font-bold text-red-800 mb-4">SK Kemenkumham</h2>
-    <img src="assets/img/sk-kemenkumham.jpg" alt="SK Kemenkumham" class="w-full rounded shadow">
-  </section>
-          <li><a href="#struktur-organisasi" class="block px-4 py-2 hover:bg-gray-100">Struktur Organisasi</a></li>
-           <!-- STRUKTUR ORGANISASI -->
-  <section id="struktur-organisasi" class="py-12 bg-white px-6">
-    <h2 class="text-2xl font-bold text-red-800 mb-4">Struktur Organisasi</h2>
-    <img src="assets/img/struktur-organisasi.jpg" alt="Struktur Organisasi" class="w-full rounded shadow">
-  </section>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
 
 </body>
 </html>
