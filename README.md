@@ -7,7 +7,7 @@
   <!-- Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
 
-  <!-- Google Fonts -->
+  <!-- Google Fonts: Orbitron + Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
 
   <!-- Font Awesome -->
@@ -59,10 +59,10 @@
         </div>
       </div>
       <nav class="hidden sm:flex space-x-6 text-lg font-medium">
-        <a href="#beranda" title="Informasi umum website" class="hover:text-orange-300 transition">Beranda</a>
-        <a href="#tentang" title="Visi dan Misi LBH-UIT" class="hover:text-orange-300 transition">Tentang</a>
-        <a href="#layanan" title="Pelayanan yang diberikan LBH-UIT" class="hover:text-orange-300 transition">Layanan</a>
-        <a href="#kontak" title="Email, WhatsApp, Facebook & Instagram" class="hover:text-orange-300 transition">Kontak</a>
+        <a href="#beranda" class="hover:text-orange-300 transition">Beranda</a>
+        <a href="#tentang" class="hover:text-orange-300 transition">Tentang</a>
+        <a href="#layanan" class="hover:text-orange-300 transition">Layanan</a>
+        <a href="#kontak" class="hover:text-orange-300 transition">Kontak</a>
       </nav>
     </div>
   </header>
@@ -78,7 +78,7 @@
   <!-- Tentang -->
   <section id="tentang" class="py-20 px-6">
     <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-4xl font-bold text-highlight mb-8">Tentang LBH-UIT</h2>
+      <h2 class="text-4xl font-bold text-highlight mb-10">Tentang LBH-UIT</h2>
 
       <h3 class="text-2xl font-semibold text-highlight mb-4">Visi</h3>
       <p class="mb-10 text-lg text-gray-300 leading-relaxed">
