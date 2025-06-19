@@ -47,21 +47,37 @@
     </div>
   </section>
 
-  <!-- Tentang Kami -->
-  <section id="tentang" class="py-20 bg-gray-100 px-6">
-    <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-highlight mb-8">Visi</h2>
-      <p class="mb-12 text-lg leading-relaxed">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
+<!-- Tentang Kami: Visi-Misi -->
+<section id="visi-misi" class="py-12 bg-gray-50 px-6">
+  <h2 class="text-xl font-semibold text-red-800 mb-4">Visi</h2>
+  <p class="mb-6">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
 
-      <h2 class="text-3xl font-bold text-highlight mb-6">Misi</h2>
-      <ol class="list-decimal text-left ml-6 space-y-4 text-lg">
-        <li>Menyediakan layanan bantuan hukum yang profesional dan berpihak pada masyarakat miskin, marjinal, dan kelompok rentan.</li>
-        <li>Mendorong reformasi hukum melalui advokasi dan pendidikan hukum.</li>
-        <li>Membangun sinergi dengan lembaga nasional dan internasional dalam memperkuat sistem hukum yang demokratis dan akuntabel.</li>
-        <li>Menjunjung tinggi prinsip keadilan restoratif sebagai sarana pemulihan dan pemberdayaan masyarakat.</li>
-      </ol>
-    </div>
-  </section>
+  <h2 class="text-xl font-semibold text-red-800 mb-4">Misi</h2>
+  <ol class="list-decimal ml-6 text-gray-800 space-y-2">
+    <li>Menyediakan layanan bantuan hukum yang profesional dan berpihak pada masyarakat miskin, marjinal, dan kelompok rentan.</li>
+    <li>Mendorong reformasi hukum melalui advokasi dan pendidikan hukum.</li>
+    <li>Membangun sinergi dengan lembaga nasional dan internasional dalam memperkuat sistem hukum yang demokratis dan akuntabel.</li>
+    <li>Menjunjung tinggi prinsip keadilan restoratif sebagai sarana pemulihan dan pemberdayaan masyarakat.</li>
+  </ol>
+</section>
+
+<!-- Tentang Kami: Akta Pendirian -->
+<section id="akta-pendirian" class="py-12 bg-white px-6">
+  <h2 class="text-xl font-semibold text-red-800 mb-4">Akta Pendirian</h2>
+  <img src="assets/img/akta-pendirian.jpg" alt="Akta Pendirian" class="w-full rounded shadow">
+</section>
+
+<!-- Tentang Kami: SK Kemenkumham -->
+<section id="sk-kemenkumham" class="py-12 bg-gray-50 px-6">
+  <h2 class="text-xl font-semibold text-red-800 mb-4">SK Kemenkumham</h2>
+  <img src="assets/img/sk-kemenkumham.jpg" alt="SK Kemenkumham" class="w-full rounded shadow">
+</section>
+
+<!-- Tentang Kami: Struktur Organisasi -->
+<section id="struktur-organisasi" class="py-12 bg-white px-6">
+  <h2 class="text-xl font-semibold text-red-800 mb-4">Struktur Organisasi</h2>
+  <img src="assets/img/struktur-organisasi.jpg" alt="Struktur Organisasi" class="w-full rounded shadow">
+</section>
 
   <!-- Layanan -->
   <section id="layanan" class="py-20 bg-white px-6">
