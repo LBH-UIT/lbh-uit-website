@@ -88,7 +88,7 @@
       <p class="text-lg text-gray-300 lang" data-id="beranda-desc">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </section>
 
-    <!-- Tentang -->
+    <!-- Tentang Kami -->
     <section id="tentang" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-8 lang" data-id="visi">Visi</h2>
       <p class="text-gray-300 mb-10 leading-relaxed lang" data-id="visi-desc">
