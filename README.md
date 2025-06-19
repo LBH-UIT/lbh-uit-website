@@ -1,21 +1,28 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>LBH-UIT Makassar</title>
+
+  <!-- Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-RRyjghIO6mSMRzR8ZtZ8vjykEtdTVEPZAv/IYJkoX+7F/d6eVtT0jMiUWUctiY6RuMIyoA+V/4Y7svF1Obl2Og==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
   <style>
     body {
-      font-family: 'Inter', sans-serif;
+      font-family: 'Poppins', sans-serif;
       background: linear-gradient(135deg, #144d36, #7a1c1c);
       background-attachment: fixed;
       color: white;
     }
     h1, h2, h3 {
       font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
     }
     .primary-color {
       background: linear-gradient(to right, #7a1c1c, #144d36);
@@ -120,14 +127,8 @@
       <div class="space-y-4 text-lg text-gray-300">
         <p>Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
         <p>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
-        <p>
-          <i class="fab fa-facebook text-blue-500 mr-2"></i>
-          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Lembaga Bantuan Hukum Uit</a>
-        </p>
-        <p>
-          <i class="fab fa-instagram text-pink-500 mr-2"></i>
-          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">@lembaga_bantuan_hukum_uit</a>
-        </p>
+        <p><i class="fab fa-facebook text-blue-500 mr-2"></i>Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Lembaga Bantuan Hukum Uit</a></p>
+        <p><i class="fab fa-instagram text-pink-500 mr-2"></i>Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">@lembaga_bantuan_hukum_uit</a></p>
       </div>
     </div>
   </section>
