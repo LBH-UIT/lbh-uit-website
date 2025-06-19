@@ -69,7 +69,7 @@
   <main class="px-6 py-16">
     <!-- Beranda -->
     <section id="beranda" class="section active text-center max-w-3xl mx-auto glass p-10 rounded-xl">
-      <h2 class="text-4xl font-bold mb-4">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
+      <h2 class="text-4xl font-bold mb-4">Mewujudkan Keadilan Mengabdi untuk Masyarakat</h2>
       <p class="text-lg text-gray-300">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </section>
 
