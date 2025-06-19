@@ -3,12 +3,11 @@
    Menggunakan: Tailwind CSS, Glassmorphism, Navigasi Dinamis
    ========================== -->
 
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Profil LBH-UIT Makassar</title>
+  <title>Profil LBH-UIT</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
@@ -49,6 +48,11 @@
       transform: scale(1.03);
       background-color: rgba(255,255,255,0.1);
     }
+    .rounded-logo {
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
   </style>
 </head>
 <body>
@@ -59,6 +63,7 @@
       <a href="#" onclick="showSection('visi-misi')" class="hover:text-orange-300 transition">Visi Misi</a>
       <a href="#" onclick="showSection('struktur')" class="hover:text-orange-300 transition">Struktur</a>
       <a href="#" onclick="showSection('dokumen')" class="hover:text-orange-300 transition">Dokumen Legal</a>
+      <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
     </nav>
   </header>
 
@@ -67,7 +72,7 @@
     <!-- Profil -->
     <section id="profil" class="section active max-w-4xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Profil LBH-UIT</h2>
-      <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="mx-auto h-32 mb-6">
+      <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="mx-auto h-32 mb-6 rounded-logo">
       <p class="text-gray-300 text-justify leading-loose">
         Lembaga Bantuan Hukum Universitas Indonesia Timur (LBH-UIT) merupakan perkumpulan berbadan hukum yang didirikan melalui Akta Notaris <strong>Mira Nila Kusuma Dewi, S.H., M.Kn.</strong> dengan nomor akta <strong>02 tanggal 12 Februari 2025</strong>. LBH-UIT telah disahkan oleh Menteri Hukum dan HAM Republik Indonesia melalui Keputusan Nomor <strong>AHU-0001101.AH.01.07.Tahun 2025</strong>.
       </p>
@@ -111,6 +116,17 @@
           <h3 class="text-lg text-orange-300 font-semibold mb-2">SK Kemenkumham</h3>
           <img src="SK Kemenkumham.jpg" alt="SK Kemenkumham" class="rounded shadow-md mx-auto">
         </div>
+      </div>
+    </section>
+
+    <!-- Kontak Kami -->
+    <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
+      <div class="text-lg text-gray-300 space-y-4">
+        <p><i class="fas fa-envelope text-red-300 mr-2"></i> <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i> <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
+        <p><i class="fab fa-facebook text-blue-500 mr-2"></i> <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a></p>
+        <p><i class="fab fa-instagram text-pink-500 mr-2"></i> <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a></p>
       </div>
     </section>
 
