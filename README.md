@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -37,14 +38,9 @@
     }
     .section {
       display: none;
-      opacity: 0;
-      transform: scale(0.97);
-      transition: all 0.4s ease-in-out;
     }
     .section.active {
       display: block;
-      opacity: 1;
-      transform: scale(1);
     }
   </style>
 </head>
@@ -144,18 +140,12 @@
     <p class="text-sm">&copy; 2025 LBH-UIT. Semua Hak Dilindungi.</p>
   </footer>
 
-  <!-- Transisi Script -->
+  <!-- Script -->
   <script>
     function showSection(id) {
       const sections = document.querySelectorAll('.section');
-      sections.forEach(section => {
-        section.classList.remove('active');
-        section.style.opacity = 0;
-        setTimeout(() => section.style.display = 'none', 300);
-      });
-      const target = document.getElementById(id);
-      target.style.display = 'block';
-      setTimeout(() => target.classList.add('active'), 10);
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
     }
   </script>
 
