@@ -72,7 +72,10 @@
           <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang Kami</a>
                 <button onclick="switchTentang('visi')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Visi & Misi</button>
                 <button onclick="switchTentang('akta')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Akta Pendirian</button>
-              </div>
+                <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
+          <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
+          <a href="#" onclick="showSection('pengaduan')" class="hover:text-orange-300 transition">Pengaduan</a>
+        </nav>
 
               <!-- Visi Misi -->
               <div id="tentang-visi" class="tentang-subsection">
@@ -97,10 +100,7 @@
               </div>
             </section>
     
-          <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
-          <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
-          <a href="#" onclick="showSection('pengaduan')" class="hover:text-orange-300 transition">Pengaduan</a>
-        </nav>
+
         <!-- Bahasa -->
         <select onchange="changeLanguage(this.value)" class="ml-4 px-2 py-1 bg-white text-black rounded">
           <option value="id">ID</option>
