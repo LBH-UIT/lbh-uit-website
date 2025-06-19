@@ -70,9 +70,6 @@
         <nav class="flex flex-wrap justify-center gap-6 text-lg font-semibold">
           <a href="#" onclick="showSection('beranda')" class="hover:text-orange-300 transition">Beranda</a>
           <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang Kami</a>
-
-                        <h2 class="text-3xl font-bold text-highlight mb-8">Tentang Kami</h2>
-              <div class="flex justify-center gap-4 mb-6">
                 <button onclick="switchTentang('visi')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Visi & Misi</button>
                 <button onclick="switchTentang('akta')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Akta Pendirian</button>
               </div>
