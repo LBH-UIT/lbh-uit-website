@@ -115,10 +115,22 @@
     <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
       <div class="text-lg text-gray-300 space-y-4">
-        <p><i class="fas fa-envelope text-red-300 mr-2"></i>Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a></p>
-        <p><i class="fab fa-whatsapp text-green-400 mr-2"></i>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
-        <p><i class="fab fa-facebook text-blue-500 mr-2"></i>Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a></p>
-        <p><i class="fab fa-instagram text-pink-500 mr-2"></i>Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a></p>
+        <p>
+          <i class="fas fa-envelope text-red-300 mr-2"></i>
+          Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-400 underline">lbhuit501@gmail.com</a>
+        </p>
+        <p>
+          <i class="fab fa-whatsapp text-green-400 mr-2"></i>
+          WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a>
+        </p>
+        <p>
+          <i class="fab fa-facebook text-blue-500 mr-2"></i>
+          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-300 underline">Lembaga Bantuan Hukum Uit</a>
+        </p>
+        <p>
+          <i class="fab fa-instagram text-pink-500 mr-2"></i>
+          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-300 underline">@lembaga_bantuan_hukum_uit</a>
+        </p>
       </div>
     </section>
   </main>
@@ -128,18 +140,12 @@
     <p class="text-sm">&copy; 2025 LBH-UIT. Semua Hak Dilindungi.</p>
   </footer>
 
-  <!-- Transisi Script -->
+  <!-- Script -->
   <script>
     function showSection(id) {
       const sections = document.querySelectorAll('.section');
-      sections.forEach(section => {
-        section.classList.remove('active');
-        section.style.opacity = 0;
-        setTimeout(() => section.style.display = 'none', 300);
-      });
-      const target = document.getElementById(id);
-      target.style.display = 'block';
-      setTimeout(() => target.classList.add('active'), 10);
+      sections.forEach(section => section.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
     }
   </script>
 
