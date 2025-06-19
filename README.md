@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -67,15 +68,17 @@
     </div>
   </section>
 
-  <!-- Tentang Kami -->
+  <!-- Tentang -->
   <section id="tentang" class="py-20 px-6">
     <div class="max-w-5xl mx-auto text-center">
-      <h2 class="text-4xl font-bold text-highlight mb-8">Visi</h2>
-      <p class="mb-12 text-lg text-gray-300 leading-relaxed">
+      <h2 class="text-4xl font-bold text-highlight mb-8">Tentang LBH-UIT</h2>
+
+      <h3 class="text-2xl font-semibold text-highlight mb-4">Visi</h3>
+      <p class="mb-10 text-lg text-gray-300 leading-relaxed">
         Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.
       </p>
 
-      <h2 class="text-3xl font-bold text-highlight mb-6">Misi</h2>
+      <h3 class="text-2xl font-semibold text-highlight mb-4">Misi</h3>
       <ol class="list-decimal text-left ml-6 space-y-4 text-lg text-gray-300">
         <li>Menyediakan layanan bantuan hukum profesional bagi masyarakat miskin & rentan.</li>
         <li>Mendorong reformasi hukum melalui advokasi & pendidikan.</li>
@@ -119,11 +122,11 @@
         <p>WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-400 underline">0852-9938-3003</a></p>
         <p>
           <i class="fab fa-facebook text-blue-500 mr-2"></i>
-          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Facebook : Lembaga Bantuan Hukum Uit</a>
+          Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="underline text-blue-300">Lembaga Bantuan Hukum Uit</a>
         </p>
         <p>
           <i class="fab fa-instagram text-pink-500 mr-2"></i>
-          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">instagram : @lembaga_bantuan_hukum_uit</a>
+          Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="underline text-pink-300">@lembaga_bantuan_hukum_uit</a>
         </p>
       </div>
     </div>
