@@ -66,7 +66,16 @@
       <div class="flex justify-between items-center gap-4 mt-4">
         <nav class="flex flex-wrap justify-center gap-6 text-lg font-semibold">
           <a href="#" onclick="showSection('beranda')" class="hover:text-orange-300 transition">Beranda</a>
-          <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang</a>
+          <div class="relative group">
+  <button class="hover:text-orange-300 transition font-semibold px-2 py-1">Tentang Kami</button>
+  <div class="absolute hidden group-hover:block bg-white text-black mt-2 rounded shadow-lg z-10 w-48">
+    <a href="#" onclick="showSection('tentang'); switchTentang('visi');" class="block px-4 py-2 hover:bg-gray-200">Visi & Misi</a>
+    <a href="#" onclick="showSection('tentang'); switchTentang('akta');" class="block px-4 py-2 hover:bg-gray-200">Akta Pendirian</a>
+    <a href="#" onclick="showSection('tentang'); switchTentang('sk');" class="block px-4 py-2 hover:bg-gray-200">SK Kemenkumham</a>
+    <a href="#" onclick="showSection('tentang'); switchTentang('struktur');" class="block px-4 py-2 hover:bg-gray-200">SK Struktur</a>
+  </div>
+</div>
+
           <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
           <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
           <a href="#" onclick="showSection('pengaduan')" class="hover:text-orange-300 transition">Pengaduan</a>
@@ -84,7 +93,7 @@
   <main class="px-6 py-16">
     <!-- Beranda -->
     <section id="beranda" class="section active text-center max-w-3xl mx-auto glass p-10 rounded-xl">
-      <h2 class="text-4xl font-bold mb-4 lang" data-id="beranda-title">Mewujudkan Keadilan Mengabdi untuk Masyarakat</h2>
+      <h2 class="text-4xl font-bold mb-4 lang" data-id="beranda-title">Mewujudkan Keadilan, Mengabdi untuk Masyarakat</h2>
       <p class="text-lg text-gray-300 lang" data-id="beranda-desc">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </section>
 
