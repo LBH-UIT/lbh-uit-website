@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -71,6 +70,36 @@
         <nav class="flex flex-wrap justify-center gap-6 text-lg font-semibold">
           <a href="#" onclick="showSection('beranda')" class="hover:text-orange-300 transition">Beranda</a>
           <a href="#" onclick="showSection('tentang')" class="hover:text-orange-300 transition">Tentang Kami</a>
+
+                        <h2 class="text-3xl font-bold text-highlight mb-8">Tentang Kami</h2>
+              <div class="flex justify-center gap-4 mb-6">
+                <button onclick="switchTentang('visi')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Visi & Misi</button>
+                <button onclick="switchTentang('akta')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Akta Pendirian</button>
+              </div>
+
+              <!-- Visi Misi -->
+              <div id="tentang-visi" class="tentang-subsection">
+                <h3 class="text-2xl font-semibold text-highlight mb-4 lang" data-id="visi">Visi</h3>
+                <p class="text-gray-300 mb-10 leading-relaxed lang" data-id="visi-desc">
+                  Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.
+                </p>
+                <h3 class="text-2xl font-semibold text-highlight mb-4 lang" data-id="misi">Misi</h3>
+                <ol class="list-decimal text-left ml-6 space-y-4 text-lg text-gray-300">
+                  <li class="lang" data-id="misi-1">Menyediakan layanan bantuan hukum profesional bagi masyarakat miskin & rentan.</li>
+                  <li class="lang" data-id="misi-2">Mendorong reformasi hukum melalui advokasi & pendidikan.</li>
+                  <li class="lang" data-id="misi-3">Membangun sinergi nasional dan internasional untuk sistem hukum demokratis.</li>
+                  <li class="lang" data-id="misi-4">Menjunjung keadilan restoratif sebagai sarana pemulihan masyarakat.</li>
+                </ol>
+              </div>
+
+              <!-- Akta Pendirian -->
+              <div id="tentang-akta" class="tentang-subsection hidden">
+                <h3 class="text-2xl font-semibold text-highlight mb-6">Akta Pendirian</h3>
+                <img src="akta-pendirian.jpg" alt="Akta Pendirian LBH-UIT" class="mx-auto max-w-md rounded shadow-lg border-2 border-white" />
+                <p class="text-gray-300 mt-4">Dokumen resmi pendirian LBH-UIT yang terdaftar di Kemenkumham.</p>
+              </div>
+            </section>
+    
           <a href="#" onclick="showSection('layanan')" class="hover:text-orange-300 transition">Layanan</a>
           <a href="#" onclick="showSection('kontak')" class="hover:text-orange-300 transition">Kontak</a>
           <a href="#" onclick="showSection('pengaduan')" class="hover:text-orange-300 transition">Pengaduan</a>
@@ -95,34 +124,6 @@
 
     <!-- Tentang -->
     <section id="tentang" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
-      <h2 class="text-3xl font-bold text-highlight mb-8">Tentang Kami</h2>
-      <div class="flex justify-center gap-4 mb-6">
-        <button onclick="switchTentang('visi')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Visi & Misi</button>
-        <button onclick="switchTentang('akta')" class="px-4 py-2 bg-white text-black rounded hover:bg-orange-200 font-semibold transition">Akta Pendirian</button>
-      </div>
-
-      <!-- Visi Misi -->
-      <div id="tentang-visi" class="tentang-subsection">
-        <h3 class="text-2xl font-semibold text-highlight mb-4 lang" data-id="visi">Visi</h3>
-        <p class="text-gray-300 mb-10 leading-relaxed lang" data-id="visi-desc">
-          Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.
-        </p>
-        <h3 class="text-2xl font-semibold text-highlight mb-4 lang" data-id="misi">Misi</h3>
-        <ol class="list-decimal text-left ml-6 space-y-4 text-lg text-gray-300">
-          <li class="lang" data-id="misi-1">Menyediakan layanan bantuan hukum profesional bagi masyarakat miskin & rentan.</li>
-          <li class="lang" data-id="misi-2">Mendorong reformasi hukum melalui advokasi & pendidikan.</li>
-          <li class="lang" data-id="misi-3">Membangun sinergi nasional dan internasional untuk sistem hukum demokratis.</li>
-          <li class="lang" data-id="misi-4">Menjunjung keadilan restoratif sebagai sarana pemulihan masyarakat.</li>
-        </ol>
-      </div>
-
-      <!-- Akta Pendirian -->
-      <div id="tentang-akta" class="tentang-subsection hidden">
-        <h3 class="text-2xl font-semibold text-highlight mb-6">Akta Pendirian</h3>
-        <img src="akta-pendirian.jpg" alt="Akta Pendirian LBH-UIT" class="mx-auto max-w-md rounded shadow-lg border-2 border-white" />
-        <p class="text-gray-300 mt-4">Dokumen resmi pendirian LBH-UIT yang terdaftar di Kemenkumham.</p>
-      </div>
-    </section>
 
     <!-- Layanan -->
     <section id="layanan" class="section max-w-5xl mx-auto glass p-10 rounded-xl text-center">
