@@ -1,104 +1,107 @@
-<header class="primary-color text-white py-6 shadow-lg sticky top-0 z-50">
-  <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
-    <div class="flex items-center space-x-4">
-      <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="h-14 w-14 object-contain rounded-full shadow-md">
-      <div>
-        <h1 class="text-2xl sm:text-3xl font-bold leading-tight tracking-wide">Lembaga Bantuan Hukum<br>
-          <span class="text-sm sm:text-base font-medium">Universitas Indonesia Timur (LBH-UIT)</span>
-        </h1>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LBH-UIT Makassar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .primary-color { background-color: #7a1c1c; }
+    .accent-color { color: #144d36; }
+    .text-highlight { color: #7a1c1c; }
+    .glass {
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    }
+    .hero-gradient {
+      background: linear-gradient(135deg, #7a1c1c 0%, #000000 100%);
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="primary-color text-white py-6 shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 flex items-center justify-between">
+      <div class="flex items-center space-x-4">
+        <img src="LOGO_LBH-removebg-preview.png" alt="Logo LBH-UIT" class="h-14 w-14 object-contain rounded-full shadow-md">
+        <div>
+          <h1 class="text-2xl sm:text-3xl font-bold leading-tight tracking-wide">Lembaga Bantuan Hukum<br><span class="text-sm sm:text-base font-medium">Universitas Indonesia Timur (LBH-UIT)</span></h1>
+        </div>
+      </div>
+      <nav class="hidden sm:flex space-x-6 text-lg font-medium">
+        <a href="#beranda" class="hover:underline">Beranda</a>
+        <a href="#tentang" class="hover:underline">Tentang Kami</a>
+        <a href="#layanan" class="hover:underline">Layanan</a>
+        <a href="#kontak" class="hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="beranda" class="hero-gradient text-white py-32 px-6">
+    <div class="glass p-10 rounded-xl max-w-3xl mx-auto text-center">
+      <h2 class="text-5xl font-bold mb-4 leading-snug">Mewujudkan Keadilan, Mengabdi untuk Rakyat</h2>
+      <p class="text-lg">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="py-20 bg-gray-100 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Visi</h2>
+      <p class="mb-12 text-lg leading-relaxed">Menjadi cahaya keadilan di tengah kabut ketimpangan, memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
+
+      <h2 class="text-3xl font-bold text-highlight mb-6">Misi</h2>
+      <ol class="list-decimal text-left ml-6 space-y-4 text-lg">
+        <li>Menyediakan layanan bantuan hukum yang profesional dan berpihak pada masyarakat miskin, marjinal, dan kelompok rentan.</li>
+        <li>Mendorong reformasi hukum melalui advokasi dan pendidikan hukum.</li>
+        <li>Membangun sinergi dengan lembaga nasional dan internasional dalam memperkuat sistem hukum yang demokratis dan akuntabel.</li>
+        <li>Menjunjung tinggi prinsip keadilan restoratif sebagai sarana pemulihan dan pemberdayaan masyarakat.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="layanan" class="py-20 bg-white px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-10">Pelayanan LBH-UIT</h2>
+      <div class="grid sm:grid-cols-2 gap-8 text-left">
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-semibold mb-2">Bantuan Hukum</h3>
+          <p>Membantu masyarakat yang memerlukan bantuan hukum secara gratis.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-semibold mb-2">Pendidikan Paralegal</h3>
+          <p>Menyediakan pendidikan dan pelatihan paralegal kepada masyarakat.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-semibold mb-2">Pemantauan & Advokasi</h3>
+          <p>Melaporkan pelanggaran hukum oleh penegak hukum atau pemerintah.</p>
+        </div>
+        <div class="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-xl transition duration-300">
+          <h3 class="text-xl font-semibold mb-2">Tempat Magang</h3>
+          <p>Menyediakan tempat magang untuk mahasiswa dan profesi hukum.</p>
+        </div>
       </div>
     </div>
-    <nav class="hidden sm:flex space-x-6 text-lg font-medium">
-      <a href="#beranda" class="nav-link">Beranda</a>
-      <a href="javascript:void(0)" onclick="openTentangKami()" class="nav-link">Tentang Kami</a>
-      <a href="javascript:void(0)" onclick="openLayanan()" class="nav-link">Layanan</a>
-      <a href="#kontak" class="nav-link">Kontak</a>
-    </nav>
-  </div>
-</header>
+  </section>
 
-<!-- Modal Tentang Kami -->
-<div id="modalTentangKami" class="modal fixed inset-0 bg-black bg-opacity-60 justify-center items-center z-50 hidden">
-  <div class="bg-white rounded-xl max-w-3xl w-full p-8 relative fade-in">
-    <button class="absolute top-4 right-4 text-red-600 text-xl font-bold" onclick="closeTentangKami()">&times;</button>
-    <h2 class="text-3xl font-bold text-highlight mb-6 text-center">Visi & Misi LBH-UIT</h2>
-    <div class="text-gray-700 text-lg">
-      <p class="mb-4">🎯 <strong>Visi:</strong><br>Memperjuangkan hak setiap insan untuk hidup bermartabat dalam naungan hukum yang adil.</p>
-      <p class="mb-2">📌 <strong>Misi:</strong></p>
-      <ul class="list-disc ml-6 space-y-2">
-        <li>Memberikan layanan bantuan hukum yang profesional dan berpihak</li>
-        <li>Mendorong reformasi hukum yang adil dan inklusif</li>
-        <li>Membangun sinergi nasional dan internasional</li>
-        <li>Menjunjung tinggi keadilan restoratif</li>
-      </ul>
+  <!-- Kontak -->
+  <section id="kontak" class="py-20 bg-gray-100 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
+      <p class="text-lg mb-2">Email: <a href="mailto:lbhuit501@gmail.com" class="text-blue-600 underline">lbhuit501@gmail.com</a></p>
+      <p class="text-lg mb-2">WhatsApp: <a href="https://wa.me/6285299383003" class="text-green-600 underline">0852-9938-3003</a></p>
+      <p class="text-lg mb-2">Facebook: <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-600 underline">Lembaga Bantuan Hukum Uit</a></p>
+      <p class="text-lg">Instagram: <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-600 underline">@lembaga_bantuan_hukum_uit</a></p>
     </div>
-  </div>
-</div>
+  </section>
 
-<script>
-  function openTentangKami() {
-    document.getElementById('modalTentangKami').classList.remove('hidden');
-  }
-  function closeTentangKami() {
-    document.getElementById('modalTentangKami').classList.add('hidden');
-  }
-</script>
-
-<!-- Modal Layanan -->
-<div id="modalLayanan" class="modal fixed inset-0 bg-black bg-opacity-60 justify-center items-center z-50 hidden">
-  <div class="bg-white rounded-xl max-w-3xl w-full p-8 relative fade-in">
-    <button class="absolute top-4 right-4 text-red-600 text-xl font-bold" onclick="closeLayanan()">&times;</button>
-    <h2 class="text-3xl font-bold text-highlight mb-6 text-center">Pelayanan LBH-UIT</h2>
-    <div class="grid sm:grid-cols-2 gap-6 text-left">
-      <div>
-        <h3 class="text-xl font-semibold text-highlight mb-2">Bantuan Hukum</h3>
-        <p class="text-gray-700">Membantu masyarakat yang memerlukan bantuan hukum secara gratis.</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold text-highlight mb-2">Pendidikan Paralegal</h3>
-        <p class="text-gray-700">Menyediakan pendidikan dan pelatihan paralegal kepada masyarakat.</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold text-highlight mb-2">Pemantauan & Advokasi</h3>
-        <p class="text-gray-700">Melaporkan pelanggaran hukum oleh penegak hukum atau pemerintah.</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold text-highlight mb-2">Tempat Magang</h3>
-        <p class="text-gray-700">Menyediakan tempat magang untuk mahasiswa dan profesi hukum.</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<script>
-  function openLayanan() {
-    document.getElementById('modalLayanan').classList.remove('hidden');
-  }
-  function closeLayanan() {
-    document.getElementById('modalLayanan').classList.add('hidden');
-  }
-</script>
-
-<!-- Sembunyikan section layanan asli (opsional) -->
-<section id="layanan" class="hidden"></section>
-
-<!-- Kontak (dengan ikon sosial media) -->
-<section id="kontak" class="py-20 bg-gray-100 px-6">
-  <div class="max-w-4xl mx-auto text-center fade-in">
-    <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
-    <div class="flex justify-center space-x-6 text-2xl">
-      <a href="mailto:lbhuit501@gmail.com" class="text-red-600 hover:text-red-800" title="Email">
-        <i class="fas fa-envelope"></i>
-      </a>
-      <a href="https://wa.me/6285299383003" class="text-green-600 hover:text-green-800" title="WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-      </a>
-      <a href="https://www.facebook.com/LembagaBantuanHukumUit" class="text-blue-700 hover:text-blue-900" title="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="https://www.instagram.com/lembaga_bantuan_hukum_uit" class="text-pink-600 hover:text-pink-800" title="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-    </div>
-  </div>
-</section>
+  <!-- Footer -->
+  <footer class="primary-color text-white text-center py-6 mt-12">
+    <p class="text-sm">&copy; 2025 LBH-UIT. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
