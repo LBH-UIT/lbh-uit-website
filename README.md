@@ -7,52 +7,61 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
   <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #144d36, #7a1c1c);
-      background-attachment: fixed;
-      color: white;
-    }
-    h1, h2, h3 {
-      font-family: 'Orbitron', sans-serif;
-    }
-    .primary-color {
-      background: linear-gradient(to right, #7a1c1c, #144d36);
-    }
-    .text-highlight {
-      color: #ffab91;
-    }
-    .glass {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      backdrop-filter: blur(16px);
-      box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
-    }
-    .section {
-      display: none;
-      opacity: 0;
-      transform: translateY(20px);
-      transition: all 0.4s ease-in-out;
-    }
-    .section.active {
-      display: block;
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .hover-card:hover {
-      transform: scale(1.03);
-      background-color: rgba(255,255,255,0.1);
-    }
-    .text-gray-300 {
-      color: #f0f0f0;
-    }
-    input, textarea {
-      color: #000;
-    }
-    .glass p, .glass li {
-      color: #f0f0f0;
-    }
-  </style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3a8a, #0f172a); /* biru bessert */
+  background-attachment: fixed;
+  color: white;
+}
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #ff0000; /* warna merah */
+}
+.primary-color {
+  background: linear-gradient(to right, #0f172a, #1e3a8a); /* gradasi biru bessert */
+}
+.text-highlight {
+  color: #ff0000; /* merah mencolok */
+}
+a, p, li, label, input, textarea {
+  color: white;
+}
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.1);
+}
+.section {
+  display: none;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease-in-out;
+}
+.section.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+.hover-card:hover {
+  transform: scale(1.03);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.text-gray-300 {
+  color: #e5e5e5;
+}
+input, textarea {
+  color: #000;
+}
+.glass p, .glass li {
+  color: #e5e5e5;
+}
+button {
+  background-color: #2563eb;
+}
+button:hover {
+  background-color: #1e40af;
+}  </style>
 </head>
 <body>
   <header class="primary-color text-white py-8 shadow-md text-center">
