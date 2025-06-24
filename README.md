@@ -83,6 +83,44 @@
       <h2 class="text-4xl font-bold mb-4 lang" data-id="beranda-title">Mewujudkan Keadilan, Mengabdi untuk Masyarakat</h2>
       <p class="text-lg text-gray-300 lang" data-id="beranda-desc">LBH-UIT hadir untuk membantu masyarakat yang membutuhkan keadilan dan perlindungan hukum.</p>
     </section>
+    <section id="tentang" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Tentang Kami</h2>
+      <p class="text-gray-300">LBH-UIT adalah lembaga bantuan hukum yang berkomitmen pada keadilan sosial dan pemberdayaan hukum masyarakat rentan.</p>
+    </section>
+    <section id="layanan" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Layanan</h2>
+      <ul class="text-gray-300 list-disc text-left ml-6">
+        <li>Bantuan hukum gratis</li>
+        <li>Pendidikan paralegal</li>
+        <li>Advokasi kebijakan</li>
+      </ul>
+    </section>
+    <section id="struktur" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Struktur Organisasi</h2>
+      <p class="text-gray-300">Struktur organisasi kami terdiri dari direktur, staf pengacara, dan relawan hukum.</p>
+    </section>
+    <section id="dokumen" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Dokumen Legal</h2>
+      <p class="text-gray-300">Akta pendirian dan SK Kemenkumham tersedia untuk diunduh.</p>
+    </section>
+    <section id="kontak" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Kontak</h2>
+      <p class="text-gray-300">Email: lembagabantuanhukumit@gmail.com<br>WhatsApp: 0852-9938-3003</p>
+    </section>
+    <section id="pengaduan" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+      <h2 class="text-3xl font-bold text-highlight mb-8">Form Pengaduan</h2>
+      <form class="space-y-4 text-left text-gray-900">
+        <div>
+          <label class="block mb-1">Nama</label>
+          <input type="text" class="w-full p-2 rounded bg-white" />
+        </div>
+        <div>
+          <label class="block mb-1">Isi Pengaduan</label>
+          <textarea rows="3" class="w-full p-2 rounded bg-white"></textarea>
+        </div>
+        <button class="bg-yellow-500 text-white px-4 py-2 rounded">Kirim</button>
+      </form>
+    </section>
   </main>
 
   <footer class="primary-color text-white text-center py-6">
