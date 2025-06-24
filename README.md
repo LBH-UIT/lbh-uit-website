@@ -156,24 +156,18 @@
       </div>
     </section>
 
-    <section id="pengaduan" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
-      <h2 class="text-3xl font-bold text-highlight mb-6">Form Pengaduan</h2>
-      <form class="space-y-6 text-left text-gray-900">
-        <div>
-          <label class="block mb-1">Nama Lengkap</label>
-          <input type="text" class="w-full p-2 rounded bg-white" placeholder="Nama Anda" />
-        </div>
-        <div>
-          <label class="block mb-1">Email / No. HP</label>
-          <input type="text" class="w-full p-2 rounded bg-white" placeholder="Kontak yang bisa dihubungi" />
-        </div>
-        <div>
-          <label class="block mb-1">Isi Pengaduan</label>
-          <textarea rows="4" class="w-full p-2 rounded bg-white" placeholder="Tulis pengaduan Anda..."></textarea>
-        </div>
-        <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 transition">Kirim</button>
-      </form>
-    </section>
+    <section id="pengaduan" class="section max-w-4xl mx-auto glass p-10 rounded-xl text-center">
+  <h2 class="text-3xl font-bold text-highlight mb-6">Form Pengaduan</h2>
+  <iframe 
+    src="https://docs.google.com/forms/d/e/1FAIpQLSeTWonnlNI5Kso98oH0di-v3UT2an7EaVfrDrKiHIUiwp8HZg/viewform?embedded=true" 
+    width="100%" 
+    height="1000" 
+    frameborder="0" 
+    marginheight="0" 
+    marginwidth="0">
+    Memuat…
+  </iframe>
+</section>
 
     <section id="kontak" class="section max-w-3xl mx-auto glass p-10 rounded-xl text-center">
       <h2 class="text-3xl font-bold text-highlight mb-6">Kontak Kami</h2>
