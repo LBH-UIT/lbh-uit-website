@@ -9,29 +9,29 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #0a0f3c, #1e3a8a); /* Biru donker */
+      background: linear-gradient(135deg, #0d1b2a, #1b263b); /* Biru gelap */
       background-attachment: fixed;
-      color: #ff0000; /* Merah untuk semua teks */
+      color: #ffeb3b; /* Kuning */
     }
     h1, h2, h3 {
       font-family: 'Orbitron', sans-serif;
-      color: #ff0000; /* Merah */
+      color: #ffeb3b;
     }
     .primary-color {
-      background: linear-gradient(to right, #0a0f3c, #1e3a8a); /* Biru donker */
+      background: linear-gradient(to right, #1b263b, #0d1b2a);
     }
     .text-highlight {
-      color: #ff0000;
+      color: #ffc107;
     }
     a, p, li, label {
-      color: #ff0000;
+      color: #ffeb3b;
     }
     a:hover {
-      color: #ff4d4d;
+      color: #ffd700;
     }
     input, textarea {
       color: #000;
-      background-color: #f0f0f0;
+      background-color: #fffde7;
     }
     .glass {
       background: rgba(255, 255, 255, 0.05);
@@ -55,17 +55,17 @@
       background-color: rgba(255, 255, 255, 0.1);
     }
     .text-gray-300 {
-      color: #ffaaaa;
+      color: #fff59d;
     }
     .glass p, .glass li {
-      color: #ff8888;
+      color: #fff176;
     }
     button {
-      background-color: #1e3a8a;
-      color: white;
+      background-color: #ffc107;
+      color: #000;
     }
     button:hover {
-      background-color: #0a0f3c;
+      background-color: #ffb300;
     }
     select {
       color: black;
